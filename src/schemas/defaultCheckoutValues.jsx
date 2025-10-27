@@ -1,0 +1,16 @@
+export const defaultCheckoutValues = {
+  fullName: "",
+  email: "",
+  phone: "",
+  zipCode: "",
+  address: "",
+  number: "",
+  complement: "",
+  city: "",
+  state: "",
+  paymentMethod: "credit-card",
+  cardNumber: "",
+  cardName: "",
+  expiryDate: "",
+  cvv: "",
+};
