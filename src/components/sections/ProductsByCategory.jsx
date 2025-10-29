@@ -173,7 +173,7 @@ export default function ProductsByCategory() {
                 color="primary"
                 onClick={handleShowMore}
                 sx={{
-                    bgcolor: colors["--clr-white-7"],
+                    bgcolor: colors["--clr-white-6"],
                     color: colors["--clr-black-1"],
                     px: { xs: 3, sm: 3.5, md: 4 },
                     py: { xs: 1.2, sm: 1.3, md: 1.5 },

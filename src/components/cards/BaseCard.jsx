@@ -9,7 +9,6 @@ const BaseCard = ({ image, title, description, children, sx = {} }) => {
         width: {
           xs: '100%',     
           sm: 250,        
-          md: 250,        
         },        
         height: {
           xs: 380,        
@@ -23,7 +22,7 @@ const BaseCard = ({ image, title, description, children, sx = {} }) => {
         py: 0.5,
         boxShadow: colors["--clr-shadow-default"],
         textAlign: "center",
-        transition: "transform 0.2s, box-shadow 0.2s",
+        transition: "box-shadow 0.2s",
         "&:hover": {
           boxShadow: colors["--clr-shadow-hover-1"],
         },

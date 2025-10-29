@@ -10,7 +10,7 @@ const Loading = ({ text = "Loading..." }) => {
       justifyContent="center"
       minHeight="100vh"
       sx={{
-        bgcolor: colors["--clr-gray-11"],
+        bgcolor: colors["--clr-gray-10"],
         flexDirection: "row",
         gap: 2,
       }}

@@ -26,7 +26,7 @@ export default function TopRated() {
         mb={3}
       >
         <Box display="flex" alignItems="center" justifyContent="center" mb={1}>
-          <Star sx={{ color: colors["--clr-yellow-5"], mr: 1 }} />
+          <Star sx={{ color: colors["--clr-yellow-3"], mr: 1 }} />
           <Typography
             variant="h5"
             sx={{

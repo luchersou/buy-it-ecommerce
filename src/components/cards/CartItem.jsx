@@ -82,7 +82,7 @@ export default function CartItem({ item, onIncrease, onDecrease, onRemove }) {
             px: 1.5,
             pb: 1.5,
             pt: 1,
-            borderTop: `1px solid ${colors["--clr-gray-11"]}`,
+            borderTop: `1px solid ${colors["--clr-gray-10"]}`,
           }}
         >
           <Typography variant="h6" color={colors["--clr-gray-4"]} fontWeight={700} sx={{ fontSize: "1rem" }}>

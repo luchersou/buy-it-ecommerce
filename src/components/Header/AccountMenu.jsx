@@ -132,7 +132,7 @@ function AccountMenu() {
                 borderColor: colors["--clr-gray-8"],
                 py: { xs: 0.75, sm: 1 },
                 fontSize: { xs: "0.8rem", sm: "0.875rem" },
-                "&:hover": { borderColor: colors["--clr-white-8"], bgcolor: colors["--clr-white-2"] },
+                "&:hover": { borderColor: colors["--clr-white-7"], bgcolor: colors["--clr-white-2"] },
               }}
             >
               SIGN UP

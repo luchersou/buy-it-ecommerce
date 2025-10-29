@@ -55,7 +55,7 @@ export default function Checkout() {
               mt: 2,
               bgcolor: colors["--clr-yellow-3"],
               color: colors["--clr-black-1"],
-              "&:hover": { bgcolor: colors["--clr-yellow-4"] },
+              "&:hover": { bgcolor: colors["--clr-yellow-2"] },
             }}
           >
             Continue Shopping

@@ -48,7 +48,7 @@ export default function FAQ() {
               mb: 2,
               boxShadow: colors["--clr-shadow-light"],
               "&:before": { display: "none" },
-              bgcolor: expanded === index ? colors["--clr-gray-11"] : colors["--clr-white-1"],
+              bgcolor: expanded === index ? colors["--clr-gray-10"] : colors["--clr-white-1"],
               transition: "all 0.2s ease",
             }}
           >

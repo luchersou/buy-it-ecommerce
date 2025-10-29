@@ -44,7 +44,7 @@ export default function CheckoutForm({ form, onSubmit, loading, paymentMethod, s
             color: colors["--clr-black-1"],
             fontWeight: 600,
             py: 1.5,
-            "&:hover": { bgcolor: colors["--clr-yellow-4"] },
+            "&:hover": { bgcolor: colors["--clr-yellow-2"] },
           }}
         >
           {loading ? <Loading text="Loading..."/> : "CONFIRM ORDER"}

@@ -162,7 +162,7 @@ const ProductsPage = () => {
                   variant="contained"
                   onClick={handleLoadMore}
                   sx={{
-                    bgcolor: colors["--clr-white-7"],
+                    bgcolor: colors["--clr-white-6"],
                     color: colors["--clr-black-1"],
                     px: { xs: 3, sm: 3.5, md: 4 },
                     py: { xs: 1.2, sm: 1.3, md: 1.5 },
@@ -171,7 +171,7 @@ const ProductsPage = () => {
                     textTransform: "none",
                     fontSize: { xs: "0.85rem", sm: "0.9rem", md: "1rem" },
                     "&:hover": {
-                      bgcolor: colors["--clr-white-8"],
+                      bgcolor: colors["--clr-white-7"],
                     },
                   }}
                 >

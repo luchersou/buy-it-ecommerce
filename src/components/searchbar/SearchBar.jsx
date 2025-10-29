@@ -125,7 +125,7 @@ export default function SearchBar({
             type="submit"
             sx={{
               p: { xs: '6px', sm: '8px', md: '10px' },
-              bgcolor: colors["--clr-yellow-4"],
+              bgcolor: colors["--clr-yellow-2"],
               borderRadius: 1,
               height: '100%',
               '&:hover': { bgcolor: colors["--clr-yellow-2"] },

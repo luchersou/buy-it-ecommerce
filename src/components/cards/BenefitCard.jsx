@@ -7,7 +7,7 @@ const BenefitCard = ({ icon: Icon, title, description }) => (
     sx={{
       position: "relative",
       backgroundColor: colors["--clr-white-1"],
-      border: `2px solid ${colors["--clr-gray-11"]}`,
+      border: `2px solid ${colors["--clr-gray-10"]}`,
       borderRadius: 3,
       p: 3,
       minHeight: "100%",

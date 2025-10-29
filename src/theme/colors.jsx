@@ -2,8 +2,6 @@ const colors = {
   "--clr-yellow-1": "#FFD814", 
   "--clr-yellow-2": "#F7CA00",
   "--clr-yellow-3": "#FFC107", 
-  "--clr-yellow-4": "#FFB300", 
-  "--clr-yellow-5": "#FFD700", 
 
   "--clr-black-1": "#000000",
   "--clr-black-2": "#111111",
@@ -19,9 +17,8 @@ const colors = {
   "--clr-white-3": "#f5f5f5",
   "--clr-white-4": "#f8fafc",
   "--clr-white-5": "#f7f7f7",
-  "--clr-white-6": "#f8fafc", 
-  "--clr-white-7": "#f8f3ecff", 
-  "--clr-white-8": "#e2d9cdff", 
+  "--clr-white-6": "#f8f3ecff", 
+  "--clr-white-7": "#e2d9cdff", 
   "--clr-white-overlay-50": "rgba(255, 255, 255, 0.5)",
 
   "--clr-gray-1": "#222222",
@@ -34,7 +31,6 @@ const colors = {
   "--clr-gray-8": "#ddd",
   "--clr-gray-9": "#e0e0e0",
   "--clr-gray-10": "#f0f2f2", 
-  "--clr-gray-11": "#f0f0f0", 
 
   "--clr-shadow-default": "0 1px 3px rgba(0,0,0,0.12)",
   "--clr-shadow-hover-1": "0 4px 12px rgba(0,0,0,0.15)",

@@ -42,7 +42,7 @@ function Carousel({ children, options = {}, plugins = [], arrowSize }) {
           boxShadow: 1,
           width: resolvedArrowSize + 10,
           height: resolvedArrowSize + 10,
-          "&:hover": { backgroundColor: colors["--clr-gray-11"] },
+          "&:hover": { backgroundColor: colors["--clr-gray-10"] },
         }}
       >
         <ArrowBackIos sx={{ fontSize: resolvedArrowSize, pl: 1 }} />
@@ -65,7 +65,7 @@ function Carousel({ children, options = {}, plugins = [], arrowSize }) {
           boxShadow: 1,
           width: resolvedArrowSize + 10,
           height: resolvedArrowSize + 10,
-          "&:hover": { backgroundColor: colors["--clr-gray-11"] },
+          "&:hover": { backgroundColor: colors["--clr-gray-10"] },
         }}
       >
         <ArrowForwardIos sx={{ fontSize: resolvedArrowSize }} />

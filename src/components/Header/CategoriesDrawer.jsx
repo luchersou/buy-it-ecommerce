@@ -141,7 +141,7 @@ export default function CategoriesDrawer({ onCategorySelect }) {
           sx={{
             p: 2.5,
             bgcolor: colors["--clr-white-1"],
-            borderBottom: `1px solid ${colors["--clr-white-8"]}`,
+            borderBottom: `1px solid ${colors["--clr-white-7"]}`,
           }}
         >
           {user ? (
@@ -268,7 +268,7 @@ export default function CategoriesDrawer({ onCategorySelect }) {
                       px: 2,
                       borderLeft: '3px solid transparent',
                       '&:hover': {
-                        bgcolor: colors["--clr-white-8"],
+                        bgcolor: colors["--clr-white-7"],
                         borderLeft: `3px solid ${colors["--clr-yellow-1"]}`,
                       },
                       transition: 'all 0.2s',
@@ -301,7 +301,7 @@ export default function CategoriesDrawer({ onCategorySelect }) {
           )}
         </Box>
 
-        <Divider sx={{ borderColor: colors["--clr-white-8"] }} />
+        <Divider sx={{ borderColor: colors["--clr-white-7"] }} />
         <Box
           sx={{
             p: 2,
