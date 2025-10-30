@@ -95,7 +95,6 @@ const Banner = () => {
         </Box>
       </Box>
 
-      {/* Indicadores */}
       <Box
         sx={{
           position: "absolute",

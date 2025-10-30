@@ -5,13 +5,11 @@ import {
   Card,
   CardMedia,
   CardContent,
-  IconButton,
-  Tooltip,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import { Add, Remove, Delete } from "@mui/icons-material";
 import { useResponsiveTruncate } from "../../hooks/useResponsiveTruncate";
+import QuantitySelector from "../buttons/QuantitySelector";
 import colors from "../../theme/colors";
 
 export default function CartItem({ item, onIncrease, onDecrease, onRemove }) {
@@ -90,40 +88,11 @@ export default function CartItem({ item, onIncrease, onDecrease, onRemove }) {
           </Typography>
 
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <Box
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                gap: 0.5,
-                bgcolor: colors["--clr-white-3"],
-                borderRadius: 2,
-                px: 1,
-                py: 0.5,
-              }}
-            >
-              <IconButton size="small" onClick={onDecrease} sx={{ p: 0.5 }}>
-                <Remove fontSize="small" />
-              </IconButton>
-              <Typography
-                fontWeight={600}
-                sx={{
-                  minWidth: 20,
-                  textAlign: "center",
-                  fontSize: "0.9rem",
-                }}
-              >
-                {item.quantity}
-              </Typography>
-              <IconButton size="small" onClick={onIncrease} sx={{ p: 0.5 }}>
-                <Add fontSize="small" />
-              </IconButton>
-            </Box>
-
-            <Tooltip title="Remover item">
-              <IconButton onClick={onRemove} color="error" sx={{ p: 1 }}>
-                <Delete sx={{ fontSize: 20 }} />
-              </IconButton>
-            </Tooltip>
+            <QuantitySelector 
+              quantity={item.quantity} 
+              onIncrease={onIncrease} 
+              onDecrease={onDecrease} 
+            />
           </Box>
         </Box>
       </Card>
@@ -187,20 +156,12 @@ export default function CartItem({ item, onIncrease, onDecrease, onRemove }) {
             py: 0.5,
           }}
         >
-          <IconButton size="small" onClick={onDecrease}>
-            <Remove fontSize="small" />
-          </IconButton>
-          <Typography fontWeight={600}>{item.quantity}</Typography>
-          <IconButton size="small" onClick={onIncrease}>
-            <Add fontSize="small" />
-          </IconButton>
+          <QuantitySelector 
+              quantity={item.quantity} 
+              onIncrease={onIncrease} 
+              onDecrease={onDecrease} 
+            />
         </Box>
-
-        <Tooltip title="Remover item">
-          <IconButton onClick={onRemove} color="error">
-            <Delete />
-          </IconButton>
-        </Tooltip>
       </CardContent>
     </Card>
   );
